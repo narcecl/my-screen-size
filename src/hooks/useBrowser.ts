@@ -5,7 +5,9 @@ export const useBrowser = () => {
     const userAgent = navigator.userAgent;
     
     // Detect OS
-    if (/Macintosh|Mac OS X/i.test(userAgent)) {
+    if (/iPhone|iPad|iPod/i.test(userAgent)) {
+        os = "iOS";
+    } else if (/Macintosh|Mac OS X/i.test(userAgent)) {
         os = "MacOS";
     } else if (/Windows NT/i.test(userAgent)) {
         os = "Windows";
@@ -13,8 +15,6 @@ export const useBrowser = () => {
         os = "Linux";
     } else if (/Android/i.test(userAgent)) {
         os = "Android";
-    } else if (/iPhone|iPad|iPod/i.test(userAgent)) {
-        os = "iOS";
     }
     
     // Detect Browser and Version
