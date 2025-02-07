@@ -31,10 +31,10 @@ function App() {
 
             <div className="flex flex-col sm:flex-row justify-between gap-1.5">
                 <p className="text-center text-sm text-white">
-                    Desarrollado con amor por <a href="https://narce.cl" target="_blank" rel="noreferrer noopener" className="text-sky-500 hover:underline">Nicolás Arce</a>.
+                    Desarrollado con amor por <a href="https://narce.cl" target="_blank" rel="noreferrer noopener" className="text-sky-500 hover:underline">Nicolás Arce</a>
                 </p>
                 <p className="text-center text-sm text-white">
-                    Si hay algún <a href="mailto:hola@narce.cl" target="_blank" rel="noreferrer noopener" className="text-sky-500 hover:underline">error enviame un mensaje</a>.
+                    Si hay algún error, <a href="mailto:hola@narce.cl" target="_blank" rel="noreferrer noopener" className="text-sky-500 hover:underline">enviame un mensaje</a>
                 </p>
             </div>
         </main>
